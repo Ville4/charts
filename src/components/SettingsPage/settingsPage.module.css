@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formItem {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+@media(max-width: 460px) {
+    .formItem {
+        flex-direction: column;
+    }
+}
+
+.formLabel {
+    flex: 1 1 auto;
+}
